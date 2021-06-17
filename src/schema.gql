@@ -1,0 +1,15 @@
+# ------------------------------------------------------
+# THIS FILE WAS AUTOMATICALLY GENERATED (DO NOT MODIFY)
+# ------------------------------------------------------
+
+type ArticleDto {
+  title: String!
+  content: String!
+  description: String!
+  isPublished: Boolean!
+}
+
+type Query {
+  getArticles: ArticleDto!
+  findOneById(id: String!): ArticleDto!
+}
