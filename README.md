@@ -43,6 +43,9 @@ $ npm run start:dev
 
 # production mode
 $ npm run start:prod
+
+# URL
+$ http://127.0.0.1/graphql
 ```
 
 ## Test
